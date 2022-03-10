@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 5000,
     layersOrder: [
       { name: "Background" },
       { name: "Type" },
@@ -48,7 +48,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 6969,
     layersOrder: [
       { name: "Background" },
       { name: "Type" },
