@@ -48,7 +48,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 6969,
+    growEditionSizeTo: 6951,
     layersOrder: [
       { name: "Background" },
       { name: "Type" },
@@ -68,9 +68,13 @@ const layerConfigurations = [
       { name: "Drink" },
     ],
   },
+  {
+    growEditionSizeTo: 6969,
+    layersOrder: [{ name: "1/1" }],
+  },
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
@@ -125,7 +129,7 @@ const preview = {
 };
 
 const preview_gif = {
-  numberOfImages: 5,
+  numberOfImages: 10,
   order: "ASC", // ASC, DESC, MIXED
   repeat: 0,
   quality: 100,
