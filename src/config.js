@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "Swol Mfers";
+const description = "Let's get swol mfer.";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
@@ -24,13 +24,35 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5000,
+    growEditionSizeTo: 2500,
     layersOrder: [
       { name: "Background" },
       { name: "Type" },
       { name: "Veins" },
       { name: "P.E.D-Lyte" },
       { name: "Ear" },
+      { name: "Brains" },
+      { name: "Mouth" },
+      { name: "Smoke" },
+      { name: "Brows" },
+      { name: "Beard" },
+      { name: "Eyes" },
+      { name: "Hair" },
+      { name: "Nipple" },
+      { name: "Hat" },
+      { name: "Wraps" },
+      { name: "Slingshot" },
+      { name: "Chain" },
+      { name: "Drink" },
+    ],
+  },
+  {
+    growEditionSizeTo: 5000,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Type" },
+      { name: "Veins" },
+      { name: "P.E.D-Lyte" },
       { name: "Brains" },
       { name: "Mouth" },
       { name: "Smoke" },
@@ -61,7 +83,6 @@ const layerConfigurations = [
       { name: "Beard" },
       { name: "Eyes" },
       { name: "Hair" },
-      { name: "Headphones" },
       { name: "Hat" },
       { name: "Paump Cover" },
       { name: "Chain" },
@@ -70,7 +91,14 @@ const layerConfigurations = [
   },
   {
     growEditionSizeTo: 6969,
-    layersOrder: [{ name: "1/1" }],
+    layersOrder: [
+      {
+        name: "1-1",
+        options: {
+          displayName: "1/1",
+        },
+      },
+    ],
   },
 ];
 
